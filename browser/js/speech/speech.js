@@ -51,6 +51,9 @@ if (!('webkitSpeechRecognition' in window)) {
 //        document.getElementsByTagName('div')[0].innerText = final_transcript;
         $scope.test = final_transcript;
 
+ 		// jQuery lite
+         angular.element('div.speechbox').text(final_transcript);
+
     };
 
 
