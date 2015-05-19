@@ -17,6 +17,13 @@ app.controller('SpeechCtrl', function($scope, $http) {
 $scope.test = "HELLO THIS WORKED";
 
 
+// game logic
+
+// show card
+
+
+
+// wrap in a function
 
 if (!('webkitSpeechRecognition' in window)) {
     //handle error stuff here...
@@ -62,3 +69,4 @@ if (!('webkitSpeechRecognition' in window)) {
 
 
 });
+
